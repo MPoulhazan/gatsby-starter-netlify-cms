@@ -36,9 +36,9 @@ main:
     image: /img/img_20190723_072408_2.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/img_20190722_115918_2.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/img_20190722_115906_2.jpg
 ---
 
