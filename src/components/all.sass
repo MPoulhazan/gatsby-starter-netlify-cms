@@ -1,8 +1,9 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Jura|Parisienne&display=swap');
 
 // Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+// Kaldi logo brand color: #290675
+$kaldi-red: #fff
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -44,7 +45,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 800px
     background-size: cover
     background-position: bottom
     display: flex
@@ -119,8 +120,15 @@ $menu-label-color: $white-ter
   display: flex;
   margin-bottom: 1em;
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
+  flex-basis: 100%;
   margin: 0 1.5em 0 0;
+
+
+
+// Customs styles
+body, p, div, h1, h2, h3
+  font-family: 'Jura', sans-serif;
+
 
 
 @import "~bulma"
